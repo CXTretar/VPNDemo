@@ -7,68 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC27B83D2181AB6E00FAAB1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27B83C2181AB6E00FAAB1A /* AppDelegate.m */; };
-		DC27B8402181AB6E00FAAB1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27B83F2181AB6E00FAAB1A /* ViewController.m */; };
-		DC27B8432181AB6E00FAAB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC27B8412181AB6E00FAAB1A /* Main.storyboard */; };
-		DC27B8452181AB6F00FAAB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC27B8442181AB6F00FAAB1A /* Assets.xcassets */; };
-		DC27B8482181AB6F00FAAB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC27B8462181AB6F00FAAB1A /* LaunchScreen.storyboard */; };
-		DC27B84B2181AB6F00FAAB1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27B84A2181AB6F00FAAB1A /* main.m */; };
-		DC27B8552181AB6F00FAAB1A /* VPNDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27B8542181AB6F00FAAB1A /* VPNDemoTests.m */; };
-		DC27B8602181AB6F00FAAB1A /* VPNDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27B85F2181AB6F00FAAB1A /* VPNDemoUITests.m */; };
+		DCEA723D218F147E0022B016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA723C218F147E0022B016 /* AppDelegate.swift */; };
+		DCEA723F218F147E0022B016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA723E218F147E0022B016 /* ViewController.swift */; };
+		DCEA7242218F147E0022B016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEA7240218F147E0022B016 /* Main.storyboard */; };
+		DCEA7244218F14800022B016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEA7243218F14800022B016 /* Assets.xcassets */; };
+		DCEA7247218F14800022B016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEA7245218F14800022B016 /* LaunchScreen.storyboard */; };
+		DCEA7252218F14800022B016 /* VPNDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA7251218F14800022B016 /* VPNDemoTests.swift */; };
+		DCEA725D218F14800022B016 /* VPNDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA725C218F14800022B016 /* VPNDemoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC27B8512181AB6F00FAAB1A /* PBXContainerItemProxy */ = {
+		DCEA724E218F14800022B016 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC27B8302181AB6E00FAAB1A /* Project object */;
+			containerPortal = DCEA7231218F147E0022B016 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC27B8372181AB6E00FAAB1A;
+			remoteGlobalIDString = DCEA7238218F147E0022B016;
 			remoteInfo = VPNDemo;
 		};
-		DC27B85C2181AB6F00FAAB1A /* PBXContainerItemProxy */ = {
+		DCEA7259218F14800022B016 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DC27B8302181AB6E00FAAB1A /* Project object */;
+			containerPortal = DCEA7231218F147E0022B016 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC27B8372181AB6E00FAAB1A;
+			remoteGlobalIDString = DCEA7238218F147E0022B016;
 			remoteInfo = VPNDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC27B8382181AB6E00FAAB1A /* VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC27B83B2181AB6E00FAAB1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DC27B83C2181AB6E00FAAB1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DC27B83E2181AB6E00FAAB1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DC27B83F2181AB6E00FAAB1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DC27B8422181AB6E00FAAB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC27B8442181AB6F00FAAB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC27B8472181AB6F00FAAB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC27B8492181AB6F00FAAB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC27B84A2181AB6F00FAAB1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC27B8502181AB6F00FAAB1A /* VPNDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPNDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC27B8542181AB6F00FAAB1A /* VPNDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPNDemoTests.m; sourceTree = "<group>"; };
-		DC27B8562181AB6F00FAAB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC27B85B2181AB6F00FAAB1A /* VPNDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPNDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC27B85F2181AB6F00FAAB1A /* VPNDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPNDemoUITests.m; sourceTree = "<group>"; };
-		DC27B8612181AB6F00FAAB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA7239218F147E0022B016 /* VPNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEA723C218F147E0022B016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCEA723E218F147E0022B016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCEA7241218F147E0022B016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCEA7243218F14800022B016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCEA7246218F14800022B016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCEA7248218F14800022B016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA724D218F14800022B016 /* VPNDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPNDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEA7251218F14800022B016 /* VPNDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNDemoTests.swift; sourceTree = "<group>"; };
+		DCEA7253218F14800022B016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA7258218F14800022B016 /* VPNDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPNDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEA725C218F14800022B016 /* VPNDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNDemoUITests.swift; sourceTree = "<group>"; };
+		DCEA725E218F14800022B016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC27B8352181AB6E00FAAB1A /* Frameworks */ = {
+		DCEA7236218F147E0022B016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC27B84D2181AB6F00FAAB1A /* Frameworks */ = {
+		DCEA724A218F14800022B016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC27B8582181AB6F00FAAB1A /* Frameworks */ = {
+		DCEA7255218F14800022B016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,56 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC27B82F2181AB6E00FAAB1A = {
+		DCEA7230218F147E0022B016 = {
 			isa = PBXGroup;
 			children = (
-				DC27B83A2181AB6E00FAAB1A /* VPNDemo */,
-				DC27B8532181AB6F00FAAB1A /* VPNDemoTests */,
-				DC27B85E2181AB6F00FAAB1A /* VPNDemoUITests */,
-				DC27B8392181AB6E00FAAB1A /* Products */,
+				DCEA723B218F147E0022B016 /* VPNDemo */,
+				DCEA7250218F14800022B016 /* VPNDemoTests */,
+				DCEA725B218F14800022B016 /* VPNDemoUITests */,
+				DCEA723A218F147E0022B016 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC27B8392181AB6E00FAAB1A /* Products */ = {
+		DCEA723A218F147E0022B016 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC27B8382181AB6E00FAAB1A /* VPNDemo.app */,
-				DC27B8502181AB6F00FAAB1A /* VPNDemoTests.xctest */,
-				DC27B85B2181AB6F00FAAB1A /* VPNDemoUITests.xctest */,
+				DCEA7239218F147E0022B016 /* VPNDemo.app */,
+				DCEA724D218F14800022B016 /* VPNDemoTests.xctest */,
+				DCEA7258218F14800022B016 /* VPNDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC27B83A2181AB6E00FAAB1A /* VPNDemo */ = {
+		DCEA723B218F147E0022B016 /* VPNDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DC27B83B2181AB6E00FAAB1A /* AppDelegate.h */,
-				DC27B83C2181AB6E00FAAB1A /* AppDelegate.m */,
-				DC27B83E2181AB6E00FAAB1A /* ViewController.h */,
-				DC27B83F2181AB6E00FAAB1A /* ViewController.m */,
-				DC27B8412181AB6E00FAAB1A /* Main.storyboard */,
-				DC27B8442181AB6F00FAAB1A /* Assets.xcassets */,
-				DC27B8462181AB6F00FAAB1A /* LaunchScreen.storyboard */,
-				DC27B8492181AB6F00FAAB1A /* Info.plist */,
-				DC27B84A2181AB6F00FAAB1A /* main.m */,
+				DCEA723C218F147E0022B016 /* AppDelegate.swift */,
+				DCEA723E218F147E0022B016 /* ViewController.swift */,
+				DCEA7240218F147E0022B016 /* Main.storyboard */,
+				DCEA7243218F14800022B016 /* Assets.xcassets */,
+				DCEA7245218F14800022B016 /* LaunchScreen.storyboard */,
+				DCEA7248218F14800022B016 /* Info.plist */,
 			);
 			path = VPNDemo;
 			sourceTree = "<group>";
 		};
-		DC27B8532181AB6F00FAAB1A /* VPNDemoTests */ = {
+		DCEA7250218F14800022B016 /* VPNDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC27B8542181AB6F00FAAB1A /* VPNDemoTests.m */,
-				DC27B8562181AB6F00FAAB1A /* Info.plist */,
+				DCEA7251218F14800022B016 /* VPNDemoTests.swift */,
+				DCEA7253218F14800022B016 /* Info.plist */,
 			);
 			path = VPNDemoTests;
 			sourceTree = "<group>";
 		};
-		DC27B85E2181AB6F00FAAB1A /* VPNDemoUITests */ = {
+		DCEA725B218F14800022B016 /* VPNDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DC27B85F2181AB6F00FAAB1A /* VPNDemoUITests.m */,
-				DC27B8612181AB6F00FAAB1A /* Info.plist */,
+				DCEA725C218F14800022B016 /* VPNDemoUITests.swift */,
+				DCEA725E218F14800022B016 /* Info.plist */,
 			);
 			path = VPNDemoUITests;
 			sourceTree = "<group>";
@@ -135,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC27B8372181AB6E00FAAB1A /* VPNDemo */ = {
+		DCEA7238218F147E0022B016 /* VPNDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC27B8642181AB6F00FAAB1A /* Build configuration list for PBXNativeTarget "VPNDemo" */;
+			buildConfigurationList = DCEA7261218F14800022B016 /* Build configuration list for PBXNativeTarget "VPNDemo" */;
 			buildPhases = (
-				DC27B8342181AB6E00FAAB1A /* Sources */,
-				DC27B8352181AB6E00FAAB1A /* Frameworks */,
-				DC27B8362181AB6E00FAAB1A /* Resources */,
+				DCEA7235218F147E0022B016 /* Sources */,
+				DCEA7236218F147E0022B016 /* Frameworks */,
+				DCEA7237218F147E0022B016 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -149,68 +142,69 @@
 			);
 			name = VPNDemo;
 			productName = VPNDemo;
-			productReference = DC27B8382181AB6E00FAAB1A /* VPNDemo.app */;
+			productReference = DCEA7239218F147E0022B016 /* VPNDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC27B84F2181AB6F00FAAB1A /* VPNDemoTests */ = {
+		DCEA724C218F14800022B016 /* VPNDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC27B8672181AB6F00FAAB1A /* Build configuration list for PBXNativeTarget "VPNDemoTests" */;
+			buildConfigurationList = DCEA7264218F14800022B016 /* Build configuration list for PBXNativeTarget "VPNDemoTests" */;
 			buildPhases = (
-				DC27B84C2181AB6F00FAAB1A /* Sources */,
-				DC27B84D2181AB6F00FAAB1A /* Frameworks */,
-				DC27B84E2181AB6F00FAAB1A /* Resources */,
+				DCEA7249218F14800022B016 /* Sources */,
+				DCEA724A218F14800022B016 /* Frameworks */,
+				DCEA724B218F14800022B016 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC27B8522181AB6F00FAAB1A /* PBXTargetDependency */,
+				DCEA724F218F14800022B016 /* PBXTargetDependency */,
 			);
 			name = VPNDemoTests;
 			productName = VPNDemoTests;
-			productReference = DC27B8502181AB6F00FAAB1A /* VPNDemoTests.xctest */;
+			productReference = DCEA724D218F14800022B016 /* VPNDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DC27B85A2181AB6F00FAAB1A /* VPNDemoUITests */ = {
+		DCEA7257218F14800022B016 /* VPNDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC27B86A2181AB6F00FAAB1A /* Build configuration list for PBXNativeTarget "VPNDemoUITests" */;
+			buildConfigurationList = DCEA7267218F14800022B016 /* Build configuration list for PBXNativeTarget "VPNDemoUITests" */;
 			buildPhases = (
-				DC27B8572181AB6F00FAAB1A /* Sources */,
-				DC27B8582181AB6F00FAAB1A /* Frameworks */,
-				DC27B8592181AB6F00FAAB1A /* Resources */,
+				DCEA7254218F14800022B016 /* Sources */,
+				DCEA7255218F14800022B016 /* Frameworks */,
+				DCEA7256218F14800022B016 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC27B85D2181AB6F00FAAB1A /* PBXTargetDependency */,
+				DCEA725A218F14800022B016 /* PBXTargetDependency */,
 			);
 			name = VPNDemoUITests;
 			productName = VPNDemoUITests;
-			productReference = DC27B85B2181AB6F00FAAB1A /* VPNDemoUITests.xctest */;
+			productReference = DCEA7258218F14800022B016 /* VPNDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC27B8302181AB6E00FAAB1A /* Project object */ = {
+		DCEA7231218F147E0022B016 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CXTretar;
 				TargetAttributes = {
-					DC27B8372181AB6E00FAAB1A = {
+					DCEA7238218F147E0022B016 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					DC27B84F2181AB6F00FAAB1A = {
+					DCEA724C218F14800022B016 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = DC27B8372181AB6E00FAAB1A;
+						TestTargetID = DCEA7238218F147E0022B016;
 					};
-					DC27B85A2181AB6F00FAAB1A = {
+					DCEA7257218F14800022B016 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = DC27B8372181AB6E00FAAB1A;
+						TestTargetID = DCEA7238218F147E0022B016;
 					};
 				};
 			};
-			buildConfigurationList = DC27B8332181AB6E00FAAB1A /* Build configuration list for PBXProject "VPNDemo" */;
+			buildConfigurationList = DCEA7234218F147E0022B016 /* Build configuration list for PBXProject "VPNDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DC27B82F2181AB6E00FAAB1A;
-			productRefGroup = DC27B8392181AB6E00FAAB1A /* Products */;
+			mainGroup = DCEA7230218F147E0022B016;
+			productRefGroup = DCEA723A218F147E0022B016 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC27B8372181AB6E00FAAB1A /* VPNDemo */,
-				DC27B84F2181AB6F00FAAB1A /* VPNDemoTests */,
-				DC27B85A2181AB6F00FAAB1A /* VPNDemoUITests */,
+				DCEA7238218F147E0022B016 /* VPNDemo */,
+				DCEA724C218F14800022B016 /* VPNDemoTests */,
+				DCEA7257218F14800022B016 /* VPNDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC27B8362181AB6E00FAAB1A /* Resources */ = {
+		DCEA7237218F147E0022B016 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC27B8482181AB6F00FAAB1A /* LaunchScreen.storyboard in Resources */,
-				DC27B8452181AB6F00FAAB1A /* Assets.xcassets in Resources */,
-				DC27B8432181AB6E00FAAB1A /* Main.storyboard in Resources */,
+				DCEA7247218F14800022B016 /* LaunchScreen.storyboard in Resources */,
+				DCEA7244218F14800022B016 /* Assets.xcassets in Resources */,
+				DCEA7242218F147E0022B016 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC27B84E2181AB6F00FAAB1A /* Resources */ = {
+		DCEA724B218F14800022B016 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC27B8592181AB6F00FAAB1A /* Resources */ = {
+		DCEA7256218F14800022B016 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC27B8342181AB6E00FAAB1A /* Sources */ = {
+		DCEA7235218F147E0022B016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC27B8402181AB6E00FAAB1A /* ViewController.m in Sources */,
-				DC27B84B2181AB6F00FAAB1A /* main.m in Sources */,
-				DC27B83D2181AB6E00FAAB1A /* AppDelegate.m in Sources */,
+				DCEA723F218F147E0022B016 /* ViewController.swift in Sources */,
+				DCEA723D218F147E0022B016 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC27B84C2181AB6F00FAAB1A /* Sources */ = {
+		DCEA7249218F14800022B016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC27B8552181AB6F00FAAB1A /* VPNDemoTests.m in Sources */,
+				DCEA7252218F14800022B016 /* VPNDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC27B8572181AB6F00FAAB1A /* Sources */ = {
+		DCEA7254218F14800022B016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC27B8602181AB6F00FAAB1A /* VPNDemoUITests.m in Sources */,
+				DCEA725D218F14800022B016 /* VPNDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC27B8522181AB6F00FAAB1A /* PBXTargetDependency */ = {
+		DCEA724F218F14800022B016 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC27B8372181AB6E00FAAB1A /* VPNDemo */;
-			targetProxy = DC27B8512181AB6F00FAAB1A /* PBXContainerItemProxy */;
+			target = DCEA7238218F147E0022B016 /* VPNDemo */;
+			targetProxy = DCEA724E218F14800022B016 /* PBXContainerItemProxy */;
 		};
-		DC27B85D2181AB6F00FAAB1A /* PBXTargetDependency */ = {
+		DCEA725A218F14800022B016 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC27B8372181AB6E00FAAB1A /* VPNDemo */;
-			targetProxy = DC27B85C2181AB6F00FAAB1A /* PBXContainerItemProxy */;
+			target = DCEA7238218F147E0022B016 /* VPNDemo */;
+			targetProxy = DCEA7259218F14800022B016 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC27B8412181AB6E00FAAB1A /* Main.storyboard */ = {
+		DCEA7240218F147E0022B016 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC27B8422181AB6E00FAAB1A /* Base */,
+				DCEA7241218F147E0022B016 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC27B8462181AB6F00FAAB1A /* LaunchScreen.storyboard */ = {
+		DCEA7245218F14800022B016 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC27B8472181AB6F00FAAB1A /* Base */,
+				DCEA7246218F14800022B016 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC27B8622181AB6F00FAAB1A /* Debug */ = {
+		DCEA725F218F14800022B016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,10 +368,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		DC27B8632181AB6F00FAAB1A /* Release */ = {
+		DCEA7260218F14800022B016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -427,45 +422,52 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DC27B8652181AB6F00FAAB1A /* Debug */ = {
+		DCEA7262218F14800022B016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VPNDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxtretar.VPNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DC27B8662181AB6F00FAAB1A /* Release */ = {
+		DCEA7263218F14800022B016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VPNDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxtretar.VPNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DC27B8682181AB6F00FAAB1A /* Debug */ = {
+		DCEA7265218F14800022B016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VPNDemoTests/Info.plist;
@@ -476,14 +478,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxtretar.VPNDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPNDemo.app/VPNDemo";
 			};
 			name = Debug;
 		};
-		DC27B8692181AB6F00FAAB1A /* Release */ = {
+		DCEA7266218F14800022B016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VPNDemoTests/Info.plist;
@@ -494,14 +498,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxtretar.VPNDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPNDemo.app/VPNDemo";
 			};
 			name = Release;
 		};
-		DC27B86B2181AB6F00FAAB1A /* Debug */ = {
+		DCEA7268218F14800022B016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VPNDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,14 +517,16 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxtretar.VPNDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VPNDemo;
 			};
 			name = Debug;
 		};
-		DC27B86C2181AB6F00FAAB1A /* Release */ = {
+		DCEA7269218F14800022B016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VPNDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -528,6 +536,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cxtretar.VPNDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VPNDemo;
 			};
@@ -536,43 +545,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC27B8332181AB6E00FAAB1A /* Build configuration list for PBXProject "VPNDemo" */ = {
+		DCEA7234218F147E0022B016 /* Build configuration list for PBXProject "VPNDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC27B8622181AB6F00FAAB1A /* Debug */,
-				DC27B8632181AB6F00FAAB1A /* Release */,
+				DCEA725F218F14800022B016 /* Debug */,
+				DCEA7260218F14800022B016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC27B8642181AB6F00FAAB1A /* Build configuration list for PBXNativeTarget "VPNDemo" */ = {
+		DCEA7261218F14800022B016 /* Build configuration list for PBXNativeTarget "VPNDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC27B8652181AB6F00FAAB1A /* Debug */,
-				DC27B8662181AB6F00FAAB1A /* Release */,
+				DCEA7262218F14800022B016 /* Debug */,
+				DCEA7263218F14800022B016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC27B8672181AB6F00FAAB1A /* Build configuration list for PBXNativeTarget "VPNDemoTests" */ = {
+		DCEA7264218F14800022B016 /* Build configuration list for PBXNativeTarget "VPNDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC27B8682181AB6F00FAAB1A /* Debug */,
-				DC27B8692181AB6F00FAAB1A /* Release */,
+				DCEA7265218F14800022B016 /* Debug */,
+				DCEA7266218F14800022B016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC27B86A2181AB6F00FAAB1A /* Build configuration list for PBXNativeTarget "VPNDemoUITests" */ = {
+		DCEA7267218F14800022B016 /* Build configuration list for PBXNativeTarget "VPNDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC27B86B2181AB6F00FAAB1A /* Debug */,
-				DC27B86C2181AB6F00FAAB1A /* Release */,
+				DCEA7268218F14800022B016 /* Debug */,
+				DCEA7269218F14800022B016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC27B8302181AB6E00FAAB1A /* Project object */;
+	rootObject = DCEA7231218F147E0022B016 /* Project object */;
 }
